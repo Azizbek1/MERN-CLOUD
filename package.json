@@ -1,0 +1,25 @@
+{
+  "name": "mern-cl",
+  "version": "1.0.0",
+  "description": "MERN-CLOUD",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/./bin/www",
+    "server": "npm start --prefix server/index",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Azizbek1/MERN-CLOUD.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Azizbek1/MERN-CLOUD/issues"
+  },
+  "homepage": "https://github.com/Azizbek1/MERN-CLOUD#readme",
+  "dependencies": {
+    "concurrently": "^7.0.0"
+  }
+}
